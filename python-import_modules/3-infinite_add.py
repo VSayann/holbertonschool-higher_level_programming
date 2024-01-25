@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
+
     from sys import argv
+
     infinit_sum = 0
+
     if len(argv) == 1:
         print("{}".format(infinit_sum))
     else:

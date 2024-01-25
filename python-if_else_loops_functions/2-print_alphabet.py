@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("abcdefghijklmnopqrstuvwxyz")
+for letter in range(ord('a'), ord('z') + 1):
+    print("{:c}".format(letter), end="")
+

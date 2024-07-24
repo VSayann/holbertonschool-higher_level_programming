@@ -1,5 +1,6 @@
 -- comment
-CREATE TABLE first_table (
-       ID INT NOT NULL,
-       name varchar(256),
+CREATE TABLE first_table(
+	id INT NOT NULL,
+	name VARCHAR(64),
+	PRIMARY KEY(id)
 );
